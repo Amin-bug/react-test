@@ -1,10 +1,11 @@
 import React from 'react';
+import Posts from './Posts';
 
 
 const App = () => {
     return (
         <React.StrictMode>
-            <h2>React</h2>
+            <Posts />
         </React.StrictMode>
     )
 };
